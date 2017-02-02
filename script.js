@@ -859,7 +859,7 @@ function Tutorial(){
 	this.loadSave = function(file){	// initialize from save
 		//this.createSave();
 		this.stage = file.stage;
-		galaxy.visibleSize = 10;
+		//galaxy.visibleSize = 10;
 		/*this.substage = 0;
 		galaxy.sectorSize = 15;
 		galaxy.visibleSize = 12;
