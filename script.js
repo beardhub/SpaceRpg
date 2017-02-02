@@ -827,7 +827,7 @@ function Tutorial(){
 		this.stage = 0;
 		this.substage = 0;
 		galaxy.sectorSize = 35;
-		galaxy.visibleSize = 20;
+		galaxy.visibleSize = 15;
 		World.get("entities.player").empty();
 		World.add(new Player(),"entities.player.p");
 		
